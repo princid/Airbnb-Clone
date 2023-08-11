@@ -1,0 +1,1871 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Airbnb Clone</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <base href="http://127.0.0.1:5502/" target="_blank" />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="icon" type="image/png" href="assets/icons/airbnb.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="main_container">
+      <div class="header">
+        <div class="nav">
+          <img src="assets/icons/logo.png" alt="logo" class="logo" />
+          <div class="head_mid">
+            <div class="anywhere">Anywhere</div>
+            <hr />
+            <div class="anyGuest">Any Guest</div>
+            <hr />
+            <div class="addPeople">
+              Add People
+              <img
+                src="assets/icons/search.png"
+                alt="search-icon"
+                class="searchIcon"
+              />
+            </div>
+          </div>
+
+          <div class="head_right">
+            <div class="headRightText">Airbnb your home</div>
+            <div class="worldIcon">
+              <img
+                src="assets/icons/world.png"
+                alt="world icon"
+                class="worldIcon"
+              />
+            </div>
+            <div class="profile">
+              <img src="assets/icons/menu.png" alt="menu" class="menuIcon" />
+              <img
+                src="assets/icons/user.png"
+                alt="user icon"
+                class="profileIcon"
+              />
+            </div>
+          </div>
+        </div>
+        <hr />
+
+        <div class="scrollItems">
+          <a href="">
+            <div class="categories">
+              <div class="categoryIcon">
+                <img src="assets/icons/farm.png" alt="farm" class="icons" />
+              </div>
+              <div class="categoryName">Farms</div>
+            </div>
+          </a>
+
+          <a href="">
+            <div class="categories">
+              <div class="categoryIcon">
+                <img src="assets/icons/pool.png" alt="pools" class="icons" />
+              </div>
+              <div class="categoryName">Amazing pools</div>
+            </div>
+          </a>
+
+          <a href="">
+            <div class="categories">
+              <div class="categoryIcon">
+                <img src="assets/icons/room.png" alt="rooms" class="icons" />
+              </div>
+              <div class="categoryName">Rooms</div>
+            </div>
+          </a>
+
+          <a href="">
+            <div class="categories">
+              <div class="categoryIcon">
+                <img src="assets/icons/ski.png" alt="play" class="icons" />
+              </div>
+              <div class="categoryName">Play</div>
+            </div>
+          </a>
+
+          <a href="">
+            <div class="categories">
+              <div class="categoryIcon">
+                <img
+                  src="assets/icons/snowflake.png"
+                  alt="skiing"
+                  class="icons"
+                />
+              </div>
+              <div class="categoryName">Skiing</div>
+            </div>
+          </a>
+
+          <a href="">
+            <div class="categories">
+              <div class="categoryIcon">
+                <img src="assets/icons/beach.png" alt="beach" class="icons" />
+              </div>
+              <div class="categoryName">Beach</div>
+            </div>
+          </a>
+
+          <a href="">
+            <div class="categories">
+              <div class="categoryIcon">
+                <img
+                  src="assets/icons/views.png"
+                  alt="amazing views"
+                  class="icons"
+                />
+              </div>
+              <div class="categoryName">Amazing views</div>
+            </div>
+          </a>
+
+          <a href="">
+            <div class="categories">
+              <div class="categoryIcon">
+                <img src="assets/icons/ufo.png" alt="ufo" class="icons" />
+              </div>
+              <div class="categoryName">OMG!</div>
+            </div>
+          </a>
+
+          <a href="">
+            <div class="categories">
+              <div class="categoryIcon">
+                <img
+                  src="assets/icons/lake.png"
+                  alt="lakefront"
+                  class="icons"
+                />
+              </div>
+              <div class="categoryName">Lakefront</div>
+            </div>
+          </a>
+
+          <a href="">
+            <div class="categories">
+              <div class="categoryIcon">
+                <img
+                  src="assets/icons/tinyhomes.jpg"
+                  alt="Tiny Homes"
+                  class="icons"
+                />
+              </div>
+              <div class="categoryName">Tiny Homes</div>
+            </div>
+          </a>
+
+          <a href="">
+            <div class="categories">
+              <div class="categoryIcon">
+                <img
+                  src="assets/icons/countryside.jpg"
+                  alt="Countryside"
+                  class="icons"
+                />
+              </div>
+              <div class="categoryName">Countryside</div>
+            </div>
+          </a>
+
+          <a href="">
+            <div class="categories">
+              <div class="categoryIcon">
+                <img src="assets/icons/cabin.jpg" alt="cabin" class="icons" />
+              </div>
+              <div class="categoryName">Cabins</div>
+            </div>
+          </a>
+
+          <a href="">
+            <div class="categories">
+              <div class="categoryIcon">
+                <img src="assets/icons/design.jpg" alt="design" class="icons" />
+              </div>
+              <div class="categoryName">Design</div>
+            </div>
+          </a>
+
+          <a href="">
+            <div class="categories">
+              <div class="categoryIcon">
+                <img
+                  src="assets/icons/farm.png"
+                  alt="Historical homes"
+                  class="icons"
+                />
+              </div>
+              <div class="categoryName">Historical homes</div>
+            </div>
+          </a>
+
+          <a href="">
+            <div class="categories">
+              <div class="categoryIcon">
+                <img
+                  src="assets/icons/farm.png"
+                  alt="Beachfront"
+                  class="icons"
+                />
+              </div>
+              <div class="categoryName">Beachfront</div>
+            </div>
+          </a>
+
+          <a href="">
+            <div class="categories">
+              <div class="categoryIcon">
+                <img src="assets/icons/fire.png" alt="trending" class="icons" />
+              </div>
+              <div class="categoryName">Trending</div>
+            </div>
+          </a>
+
+          <a href="">
+            <div class="categories">
+              <div class="categoryIcon">
+                <img src="assets/icons/farm.png" alt="islands" class="icons" />
+              </div>
+              <div class="categoryName">Islands</div>
+            </div>
+          </a>
+
+          <a href="">
+            <div class="categories">
+              <div class="categoryIcon">
+                <img
+                  src="assets/icons/camping.png"
+                  alt="Camping"
+                  class="icons"
+                />
+              </div>
+              <div class="categoryName">Camping</div>
+            </div>
+          </a>
+
+          <a href="">
+            <div class="categories">
+              <div class="categoryIcon">
+                <img src="assets/icons/cave.png" alt="caves" class="icons" />
+              </div>
+              <div class="categoryName">Caves</div>
+            </div>
+          </a>
+
+          <a href="">
+            <div class="categories">
+              <div class="categoryIcon">
+                <img src="assets/icons/farm.png" alt="mansions" class="icons" />
+              </div>
+              <div class="categoryName">Mansions</div>
+            </div>
+          </a>
+
+          <a href="">
+            <div class="categories">
+              <div class="categoryIcon">
+                <img src="assets/icons/cactus.png" alt="desert" class="icons" />
+              </div>
+              <div class="categoryName">Desert</div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="secondaryHeadDisplay">
+        <div class="displayPrice">
+          <div class="displayMainText">Display total price</div>
+          <div class="vertLine">|</div>
+          <div class="displaySecondaryText">Include all fees, before taxes</div>
+        </div>
+      </div>
+
+      <div class="parentSection">
+        <!-- 1st Box -->
+        <div class="roomBox">
+          <div class="roomImg">
+            <img
+              src="assets/images/img18.avif"
+              alt="Room Image"
+              class="roomImg"
+            />
+            <a href="">
+              <div class="heartIcon">
+                <img src="assets/icons/heart.png" alt="" class="heartIcon" />
+              </div>
+            </a>
+            <div class="ownerContainer">
+              <div class="roomOwnerSection">
+                <div class="vl"></div>
+
+                <div class="ownerImage">
+                  <img
+                    src="assets/images/face1.avif"
+                    alt="owner image"
+                    class="ownerImage"
+                  />
+                </div>
+              </div>
+              <div class="ownerBackFlip"></div>
+            </div>
+          </div>
+          <div class="roomDescription">
+            <div class="roomDescTop">
+              <div class="locationName">Noida, India</div>
+
+              <div class="starRating">
+                <img
+                  src="assets/icons/star.png"
+                  alt="Star icon"
+                  class="starIcon"
+                />
+                <div class="rating">3.91</div>
+              </div>
+            </div>
+
+            <div class="roomDescBottom">
+              <p>212 kilometres away</p>
+              <p>21-26 Aug</p>
+            </div>
+
+            <div class="price">₹3,994 night</div>
+          </div>
+        </div>
+
+        <!-- 2nd -->
+        <div class="roomBox">
+          <div class="roomImg">
+            <img
+              src="assets/images/img17.avif"
+              alt="Room Image"
+              class="roomImg"
+            />
+            <a href="">
+              <div class="heartIcon">
+                <img src="assets/icons/heart.png" alt="" class="heartIcon" />
+              </div>
+            </a>
+            <div class="ownerContainer">
+              <div class="roomOwnerSection">
+                <div class="vl"></div>
+
+                <div class="ownerImage">
+                  <img
+                    src="assets/images/Prince.jpeg"
+                    alt="owner image"
+                    class="ownerImage"
+                  />
+                </div>
+              </div>
+              <div class="ownerBackFlip"></div>
+            </div>
+          </div>
+          <div class="roomDescription">
+            <div class="roomDescTop">
+              <div class="locationName">Noida, India</div>
+
+              <div class="starRating">
+                <img
+                  src="assets/icons/star.png"
+                  alt="Star icon"
+                  class="starIcon"
+                />
+                <div class="rating">3.91</div>
+              </div>
+            </div>
+
+            <div class="roomDescBottom">
+              <p>212 kilometres away</p>
+              <p>21-26 Aug</p>
+            </div>
+
+            <div class="price">₹3,994 night</div>
+          </div>
+        </div>
+
+        <!-- 3rd -->
+        <div class="roomBox">
+          <div class="roomImg">
+            <img
+              src="assets/images/img19.avif"
+              alt="Room Image"
+              class="roomImg"
+            />
+            <a href="">
+              <div class="heartIcon">
+                <img src="assets/icons/heart.png" alt="" class="heartIcon" />
+              </div>
+            </a>
+            <div class="ownerContainer">
+              <div class="roomOwnerSection">
+                <div class="vl"></div>
+
+                <div class="ownerImage">
+                  <img
+                    src="assets/images/face3.avif"
+                    alt="owner image"
+                    class="ownerImage"
+                  />
+                </div>
+              </div>
+              <div class="ownerBackFlip"></div>
+            </div>
+          </div>
+          <div class="roomDescription">
+            <div class="roomDescTop">
+              <div class="locationName">Noida, India</div>
+
+              <div class="starRating">
+                <img
+                  src="assets/icons/star.png"
+                  alt="Star icon"
+                  class="starIcon"
+                />
+                <div class="rating">3.91</div>
+              </div>
+            </div>
+
+            <div class="roomDescBottom">
+              <p>212 kilometres away</p>
+              <p>21-26 Aug</p>
+            </div>
+
+            <div class="price">₹3,994 night</div>
+          </div>
+        </div>
+
+        <!-- 4th -->
+        <div class="roomBox">
+          <div class="roomImg">
+            <img
+              src="assets/images/img20.avif"
+              alt="Room Image"
+              class="roomImg"
+            />
+            <a href="">
+              <div class="heartIcon">
+                <img src="assets/icons/heart.png" alt="" class="heartIcon" />
+              </div>
+            </a>
+
+            <div class="ownerContainer">
+              <div class="roomOwnerSection">
+                <div class="vl"></div>
+
+                <div class="ownerImage">
+                  <img
+                    src="assets/images/Prince.jpeg"
+                    alt="owner image"
+                    class="ownerImage"
+                  />
+                </div>
+              </div>
+              <div class="ownerBackFlip"></div>
+            </div>
+          </div>
+          <div class="roomDescription">
+            <div class="roomDescTop">
+              <div class="locationName">Noida, India</div>
+
+              <div class="starRating">
+                <img
+                  src="assets/icons/star.png"
+                  alt="Star icon"
+                  class="starIcon"
+                />
+                <div class="rating">3.91</div>
+              </div>
+            </div>
+
+            <div class="roomDescBottom">
+              <p>212 kilometres away</p>
+              <p>21-26 Aug</p>
+            </div>
+
+            <div class="price">₹3,994 night</div>
+          </div>
+        </div>
+
+        <!-- 5th -->
+        <div class="roomBox">
+          <div class="roomImg">
+            <img
+              src="assets/images/img21.avif"
+              alt="Room Image"
+              class="roomImg"
+            />
+            <a href="">
+              <div class="heartIcon">
+                <img src="assets/icons/heart.png" alt="" class="heartIcon" />
+              </div>
+            </a>
+
+            <div class="ownerContainer">
+              <div class="roomOwnerSection">
+                <div class="vl"></div>
+
+                <div class="ownerImage">
+                  <img
+                    src="assets/images/Prince.jpeg"
+                    alt="owner image"
+                    class="ownerImage"
+                  />
+                </div>
+              </div>
+              <div class="ownerBackFlip"></div>
+            </div>
+          </div>
+          <div class="roomDescription">
+            <div class="roomDescTop">
+              <div class="locationName">Noida, India</div>
+
+              <div class="starRating">
+                <img
+                  src="assets/icons/star.png"
+                  alt="Star icon"
+                  class="starIcon"
+                />
+                <div class="rating">3.91</div>
+              </div>
+            </div>
+
+            <div class="roomDescBottom">
+              <p>212 kilometres away</p>
+              <p>21-26 Aug</p>
+            </div>
+
+            <div class="price">₹3,994 night</div>
+          </div>
+        </div>
+
+        <!-- 6th -->
+        <div class="roomBox">
+          <div class="roomImg">
+            <img
+              src="assets/images/img22.avif"
+              alt="Room Image"
+              class="roomImg"
+            />
+            <a href="">
+              <div class="heartIcon">
+                <img src="assets/icons/heart.png" alt="" class="heartIcon" />
+              </div>
+            </a>
+            <div class="ownerContainer">
+              <div class="roomOwnerSection">
+                <div class="vl"></div>
+
+                <div class="ownerImage">
+                  <img
+                    src="assets/images/Prince.jpeg"
+                    alt="owner image"
+                    class="ownerImage"
+                  />
+                </div>
+              </div>
+              <div class="ownerBackFlip"></div>
+            </div>
+          </div>
+          <div class="roomDescription">
+            <div class="roomDescTop">
+              <div class="locationName">Noida, India</div>
+
+              <div class="starRating">
+                <img
+                  src="assets/icons/star.png"
+                  alt="Star icon"
+                  class="starIcon"
+                />
+                <div class="rating">3.91</div>
+              </div>
+            </div>
+
+            <div class="roomDescBottom">
+              <p>212 kilometres away</p>
+              <p>21-26 Aug</p>
+            </div>
+
+            <div class="price">₹3,994 night</div>
+          </div>
+        </div>
+
+        <!-- 7th -->
+        <div class="roomBox">
+          <div class="roomImg">
+            <img
+              src="assets/images/img23.avif"
+              alt="Room Image"
+              class="roomImg"
+            />
+            <a href="">
+              <div class="heartIcon">
+                <img src="assets/icons/heart.png" alt="" class="heartIcon" />
+              </div>
+            </a>
+            <div class="ownerContainer">
+              <div class="roomOwnerSection">
+                <div class="vl"></div>
+
+                <div class="ownerImage">
+                  <img
+                    src="assets/images/Prince.jpeg"
+                    alt="owner image"
+                    class="ownerImage"
+                  />
+                </div>
+              </div>
+              <div class="ownerBackFlip"></div>
+            </div>
+          </div>
+          <div class="roomDescription">
+            <div class="roomDescTop">
+              <div class="locationName">Noida, India</div>
+
+              <div class="starRating">
+                <img
+                  src="assets/icons/star.png"
+                  alt="Star icon"
+                  class="starIcon"
+                />
+                <div class="rating">3.91</div>
+              </div>
+            </div>
+
+            <div class="roomDescBottom">
+              <p>212 kilometres away</p>
+              <p>21-26 Aug</p>
+            </div>
+
+            <div class="price">₹3,994 night</div>
+          </div>
+        </div>
+
+        <!-- 8th -->
+        <div class="roomBox">
+          <div class="roomImg">
+            <img
+              src="assets/images/img28.avif"
+              alt="Room Image"
+              class="roomImg"
+            />
+            <a href="">
+              <div class="heartIcon">
+                <img src="assets/icons/heart.png" alt="" class="heartIcon" />
+              </div>
+            </a>
+            <div class="ownerContainer">
+              <div class="roomOwnerSection">
+                <div class="vl"></div>
+
+                <div class="ownerImage">
+                  <img
+                    src="assets/images/Prince.jpeg"
+                    alt="owner image"
+                    class="ownerImage"
+                  />
+                </div>
+              </div>
+              <div class="ownerBackFlip"></div>
+            </div>
+          </div>
+          <div class="roomDescription">
+            <div class="roomDescTop">
+              <div class="locationName">Noida, India</div>
+
+              <div class="starRating">
+                <img
+                  src="assets/icons/star.png"
+                  alt="Star icon"
+                  class="starIcon"
+                />
+                <div class="rating">3.91</div>
+              </div>
+            </div>
+
+            <div class="roomDescBottom">
+              <p>212 kilometres away</p>
+              <p>21-26 Aug</p>
+            </div>
+
+            <div class="price">₹3,994 night</div>
+          </div>
+        </div>
+
+        <!-- 9th -->
+        <div class="roomBox">
+          <div class="roomImg">
+            <img
+              src="assets/images/img29.avif"
+              alt="Room Image"
+              class="roomImg"
+            />
+            <a href="">
+              <div class="heartIcon">
+                <img src="assets/icons/heart.png" alt="" class="heartIcon" />
+              </div>
+            </a>
+            <div class="ownerContainer">
+              <div class="roomOwnerSection">
+                <div class="vl"></div>
+
+                <div class="ownerImage">
+                  <img
+                    src="assets/images/Prince.jpeg"
+                    alt="owner image"
+                    class="ownerImage"
+                  />
+                </div>
+              </div>
+              <div class="ownerBackFlip"></div>
+            </div>
+          </div>
+          <div class="roomDescription">
+            <div class="roomDescTop">
+              <div class="locationName">Noida, India</div>
+
+              <div class="starRating">
+                <img
+                  src="assets/icons/star.png"
+                  alt="Star icon"
+                  class="starIcon"
+                />
+                <div class="rating">3.91</div>
+              </div>
+            </div>
+
+            <div class="roomDescBottom">
+              <p>212 kilometres away</p>
+              <p>21-26 Aug</p>
+            </div>
+
+            <div class="price">₹3,994 night</div>
+          </div>
+        </div>
+
+        <!-- 10th -->
+        <div class="roomBox">
+          <div class="roomImg">
+            <img
+              src="assets/images/img30.avif"
+              alt="Room Image"
+              class="roomImg"
+            />
+            <a href="">
+              <div class="heartIcon">
+                <img src="assets/icons/heart.png" alt="" class="heartIcon" />
+              </div>
+            </a>
+            <div class="ownerContainer">
+              <div class="roomOwnerSection">
+                <div class="vl"></div>
+
+                <div class="ownerImage">
+                  <img
+                    src="assets/images/Prince.jpeg"
+                    alt="owner image"
+                    class="ownerImage"
+                  />
+                </div>
+              </div>
+              <div class="ownerBackFlip"></div>
+            </div>
+          </div>
+          <div class="roomDescription">
+            <div class="roomDescTop">
+              <div class="locationName">Noida, India</div>
+
+              <div class="starRating">
+                <img
+                  src="assets/icons/star.png"
+                  alt="Star icon"
+                  class="starIcon"
+                />
+                <div class="rating">3.91</div>
+              </div>
+            </div>
+
+            <div class="roomDescBottom">
+              <p>212 kilometres away</p>
+              <p>21-26 Aug</p>
+            </div>
+
+            <div class="price">₹3,994 night</div>
+          </div>
+        </div>
+
+        <!-- 11th -->
+        <div class="roomBox">
+          <div class="roomImg">
+            <img
+              src="assets/images/img13.avif"
+              alt="Room Image"
+              class="roomImg"
+            />
+            <a href="">
+              <div class="heartIcon">
+                <img src="assets/icons/heart.png" alt="" class="heartIcon" />
+              </div>
+            </a>
+            <div class="ownerContainer">
+              <div class="roomOwnerSection">
+                <div class="vl"></div>
+
+                <div class="ownerImage">
+                  <img
+                    src="assets/images/Prince.jpeg"
+                    alt="owner image"
+                    class="ownerImage"
+                  />
+                </div>
+              </div>
+              <div class="ownerBackFlip"></div>
+            </div>
+          </div>
+          <div class="roomDescription">
+            <div class="roomDescTop">
+              <div class="locationName">Noida, India</div>
+
+              <div class="starRating">
+                <img
+                  src="assets/icons/star.png"
+                  alt="Star icon"
+                  class="starIcon"
+                />
+                <div class="rating">3.91</div>
+              </div>
+            </div>
+
+            <div class="roomDescBottom">
+              <p>212 kilometres away</p>
+              <p>21-26 Aug</p>
+            </div>
+
+            <div class="price">₹3,994 night</div>
+          </div>
+        </div>
+
+        <!-- 12th -->
+        <div class="roomBox">
+          <div class="roomImg">
+            <img
+              src="assets/images/img14.avif"
+              alt="Room Image"
+              class="roomImg"
+            />
+            <a href="">
+              <div class="heartIcon">
+                <img src="assets/icons/heart.png" alt="" class="heartIcon" />
+              </div>
+            </a>
+            <div class="ownerContainer">
+              <div class="roomOwnerSection">
+                <div class="vl"></div>
+
+                <div class="ownerImage">
+                  <img
+                    src="assets/images/Prince.jpeg"
+                    alt="owner image"
+                    class="ownerImage"
+                  />
+                </div>
+              </div>
+              <div class="ownerBackFlip"></div>
+            </div>
+          </div>
+          <div class="roomDescription">
+            <div class="roomDescTop">
+              <div class="locationName">Noida, India</div>
+
+              <div class="starRating">
+                <img
+                  src="assets/icons/star.png"
+                  alt="Star icon"
+                  class="starIcon"
+                />
+                <div class="rating">3.91</div>
+              </div>
+            </div>
+
+            <div class="roomDescBottom">
+              <p>212 kilometres away</p>
+              <p>21-26 Aug</p>
+            </div>
+
+            <div class="price">₹3,994 night</div>
+          </div>
+        </div>
+
+        <!-- 13th -->
+        <div class="roomBox">
+          <div class="roomImg">
+            <img
+              src="assets/images/img15.avif"
+              alt="Room Image"
+              class="roomImg"
+            />
+            <a href="">
+              <div class="heartIcon">
+                <img src="assets/icons/heart.png" alt="" class="heartIcon" />
+              </div>
+            </a>
+            <div class="ownerContainer">
+              <div class="roomOwnerSection">
+                <div class="vl"></div>
+
+                <div class="ownerImage">
+                  <img
+                    src="assets/images/Prince.jpeg"
+                    alt="owner image"
+                    class="ownerImage"
+                  />
+                </div>
+              </div>
+              <div class="ownerBackFlip"></div>
+            </div>
+          </div>
+          <div class="roomDescription">
+            <div class="roomDescTop">
+              <div class="locationName">Noida, India</div>
+
+              <div class="starRating">
+                <img
+                  src="assets/icons/star.png"
+                  alt="Star icon"
+                  class="starIcon"
+                />
+                <div class="rating">3.91</div>
+              </div>
+            </div>
+
+            <div class="roomDescBottom">
+              <p>212 kilometres away</p>
+              <p>21-26 Aug</p>
+            </div>
+
+            <div class="price">₹3,994 night</div>
+          </div>
+        </div>
+
+        <!-- 14th -->
+        <div class="roomBox">
+          <div class="roomImg">
+            <img
+              src="assets/images/img16.avif"
+              alt="Room Image"
+              class="roomImg"
+            />
+            <a href="">
+              <div class="heartIcon">
+                <img src="assets/icons/heart.png" alt="" class="heartIcon" />
+              </div>
+            </a>
+            <div class="ownerContainer">
+              <div class="roomOwnerSection">
+                <div class="vl"></div>
+
+                <div class="ownerImage">
+                  <img
+                    src="assets/images/Prince.jpeg"
+                    alt="owner image"
+                    class="ownerImage"
+                  />
+                </div>
+              </div>
+              <div class="ownerBackFlip"></div>
+            </div>
+          </div>
+          <div class="roomDescription">
+            <div class="roomDescTop">
+              <div class="locationName">Noida, India</div>
+
+              <div class="starRating">
+                <img
+                  src="assets/icons/star.png"
+                  alt="Star icon"
+                  class="starIcon"
+                />
+                <div class="rating">3.91</div>
+              </div>
+            </div>
+
+            <div class="roomDescBottom">
+              <p>212 kilometres away</p>
+              <p>21-26 Aug</p>
+            </div>
+
+            <div class="price">₹3,994 night</div>
+          </div>
+        </div>
+
+        <!-- 15th -->
+        <div class="roomBox">
+          <div class="roomImg">
+            <img
+              src="assets/images/img17.avif"
+              alt="Room Image"
+              class="roomImg"
+            />
+            <a href="">
+              <div class="heartIcon">
+                <img src="assets/icons/heart.png" alt="" class="heartIcon" />
+              </div>
+            </a>
+            <div class="ownerContainer">
+              <div class="roomOwnerSection">
+                <div class="vl"></div>
+
+                <div class="ownerImage">
+                  <img
+                    src="assets/images/Prince.jpeg"
+                    alt="owner image"
+                    class="ownerImage"
+                  />
+                </div>
+              </div>
+              <div class="ownerBackFlip"></div>
+            </div>
+          </div>
+          <div class="roomDescription">
+            <div class="roomDescTop">
+              <div class="locationName">Noida, India</div>
+
+              <div class="starRating">
+                <img
+                  src="assets/icons/star.png"
+                  alt="Star icon"
+                  class="starIcon"
+                />
+                <div class="rating">3.91</div>
+              </div>
+            </div>
+
+            <div class="roomDescBottom">
+              <p>212 kilometres away</p>
+              <p>21-26 Aug</p>
+            </div>
+
+            <div class="price">₹3,994 night</div>
+          </div>
+        </div>
+
+        <!-- 16th -->
+        <div class="roomBox">
+          <div class="roomImg">
+            <img
+              src="assets/images/img19.avif"
+              alt="Room Image"
+              class="roomImg"
+            />
+            <a href="">
+              <div class="heartIcon">
+                <img src="assets/icons/heart.png" alt="" class="heartIcon" />
+              </div>
+            </a>
+            <div class="ownerContainer">
+              <div class="roomOwnerSection">
+                <div class="vl"></div>
+
+                <div class="ownerImage">
+                  <img
+                    src="assets/images/Prince.jpeg"
+                    alt="owner image"
+                    class="ownerImage"
+                  />
+                </div>
+              </div>
+              <div class="ownerBackFlip"></div>
+            </div>
+          </div>
+          <div class="roomDescription">
+            <div class="roomDescTop">
+              <div class="locationName">Noida, India</div>
+
+              <div class="starRating">
+                <img
+                  src="assets/icons/star.png"
+                  alt="Star icon"
+                  class="starIcon"
+                />
+                <div class="rating">3.91</div>
+              </div>
+            </div>
+
+            <div class="roomDescBottom">
+              <p>212 kilometres away</p>
+              <p>21-26 Aug</p>
+            </div>
+
+            <div class="price">₹3,994 night</div>
+          </div>
+        </div>
+
+        <!-- 17th -->
+        <div class="roomBox">
+          <div class="roomImg">
+            <img
+              src="assets/images/img18.avif"
+              alt="Room Image"
+              class="roomImg"
+            />
+            <a href="">
+              <div class="heartIcon">
+                <img src="assets/icons/heart.png" alt="" class="heartIcon" />
+              </div>
+            </a>
+            <div class="ownerContainer">
+              <div class="roomOwnerSection">
+                <div class="vl"></div>
+
+                <div class="ownerImage">
+                  <img
+                    src="assets/images/Prince.jpeg"
+                    alt="owner image"
+                    class="ownerImage"
+                  />
+                </div>
+              </div>
+              <div class="ownerBackFlip"></div>
+            </div>
+          </div>
+          <div class="roomDescription">
+            <div class="roomDescTop">
+              <div class="locationName">Noida, India</div>
+
+              <div class="starRating">
+                <img
+                  src="assets/icons/star.png"
+                  alt="Star icon"
+                  class="starIcon"
+                />
+                <div class="rating">3.91</div>
+              </div>
+            </div>
+
+            <div class="roomDescBottom">
+              <p>212 kilometres away</p>
+              <p>21-26 Aug</p>
+            </div>
+
+            <div class="price">₹3,994 night</div>
+          </div>
+        </div>
+
+        <!-- 18th -->
+        <div class="roomBox">
+          <div class="roomImg">
+            <img
+              src="assets/images/img21.avif"
+              alt="Room Image"
+              class="roomImg"
+            />
+            <a href="">
+              <div class="heartIcon">
+                <img src="assets/icons/heart.png" alt="" class="heartIcon" />
+              </div>
+            </a>
+            <div class="ownerContainer">
+              <div class="roomOwnerSection">
+                <div class="vl"></div>
+
+                <div class="ownerImage">
+                  <img
+                    src="assets/images/Prince.jpeg"
+                    alt="owner image"
+                    class="ownerImage"
+                  />
+                </div>
+              </div>
+              <div class="ownerBackFlip"></div>
+            </div>
+          </div>
+          <div class="roomDescription">
+            <div class="roomDescTop">
+              <div class="locationName">Noida, India</div>
+
+              <div class="starRating">
+                <img
+                  src="assets/icons/star.png"
+                  alt="Star icon"
+                  class="starIcon"
+                />
+                <div class="rating">3.91</div>
+              </div>
+            </div>
+
+            <div class="roomDescBottom">
+              <p>212 kilometres away</p>
+              <p>21-26 Aug</p>
+            </div>
+
+            <div class="price">₹3,994 night</div>
+          </div>
+        </div>
+
+        <!-- 19th -->
+        <div class="roomBox">
+          <div class="roomImg">
+            <img
+              src="assets/images/img1.avif"
+              alt="Room Image"
+              class="roomImg"
+            />
+            <a href="">
+              <div class="heartIcon">
+                <img src="assets/icons/heart.png" alt="" class="heartIcon" />
+              </div>
+            </a>
+            <div class="ownerContainer">
+              <div class="roomOwnerSection">
+                <div class="vl"></div>
+
+                <div class="ownerImage">
+                  <img
+                    src="assets/images/Prince.jpeg"
+                    alt="owner image"
+                    class="ownerImage"
+                  />
+                </div>
+              </div>
+              <div class="ownerBackFlip"></div>
+            </div>
+          </div>
+          <div class="roomDescription">
+            <div class="roomDescTop">
+              <div class="locationName">Noida, India</div>
+
+              <div class="starRating">
+                <img
+                  src="assets/icons/star.png"
+                  alt="Star icon"
+                  class="starIcon"
+                />
+                <div class="rating">3.91</div>
+              </div>
+            </div>
+
+            <div class="roomDescBottom">
+              <p>212 kilometres away</p>
+              <p>21-26 Aug</p>
+            </div>
+
+            <div class="price">₹3,994 night</div>
+          </div>
+        </div>
+
+        <!-- 20th -->
+        <div class="roomBox">
+          <div class="roomImg">
+            <img
+              src="assets/images/img3.avif"
+              alt="Room Image"
+              class="roomImg"
+            />
+            <a href="">
+              <div class="heartIcon">
+                <img src="assets/icons/heart.png" alt="" class="heartIcon" />
+              </div>
+            </a>
+            <div class="ownerContainer">
+              <div class="roomOwnerSection">
+                <div class="vl"></div>
+
+                <div class="ownerImage">
+                  <img
+                    src="assets/images/Prince.jpeg"
+                    alt="owner image"
+                    class="ownerImage"
+                  />
+                </div>
+              </div>
+              <div class="ownerBackFlip"></div>
+            </div>
+          </div>
+          <div class="roomDescription">
+            <div class="roomDescTop">
+              <div class="locationName">Noida, India</div>
+
+              <div class="starRating">
+                <img
+                  src="assets/icons/star.png"
+                  alt="Star icon"
+                  class="starIcon"
+                />
+                <div class="rating">3.91</div>
+              </div>
+            </div>
+
+            <div class="roomDescBottom">
+              <p>212 kilometres away</p>
+              <p>21-26 Aug</p>
+            </div>
+
+            <div class="price">₹3,994 night</div>
+          </div>
+        </div>
+
+        <!-- 21st -->
+        <div class="roomBox">
+          <div class="roomImg">
+            <img
+              src="assets/images/img4.avif"
+              alt="Room Image"
+              class="roomImg"
+            />
+            <a href="">
+              <div class="heartIcon">
+                <img src="assets/icons/heart.png" alt="" class="heartIcon" />
+              </div>
+            </a>
+            <div class="ownerContainer">
+              <div class="roomOwnerSection">
+                <div class="vl"></div>
+
+                <div class="ownerImage">
+                  <img
+                    src="assets/images/Prince.jpeg"
+                    alt="owner image"
+                    class="ownerImage"
+                  />
+                </div>
+              </div>
+              <div class="ownerBackFlip"></div>
+            </div>
+          </div>
+          <div class="roomDescription">
+            <div class="roomDescTop">
+              <div class="locationName">Noida, India</div>
+
+              <div class="starRating">
+                <img
+                  src="assets/icons/star.png"
+                  alt="Star icon"
+                  class="starIcon"
+                />
+                <div class="rating">3.91</div>
+              </div>
+            </div>
+
+            <div class="roomDescBottom">
+              <p>212 kilometres away</p>
+              <p>21-26 Aug</p>
+            </div>
+
+            <div class="price">₹3,994 night</div>
+          </div>
+        </div>
+
+        <!-- 22nd -->
+        <div class="roomBox">
+          <div class="roomImg">
+            <img
+              src="assets/images/img5.avif"
+              alt="Room Image"
+              class="roomImg"
+            />
+            <a href="">
+              <div class="heartIcon">
+                <img src="assets/icons/heart.png" alt="" class="heartIcon" />
+              </div>
+            </a>
+            <div class="ownerContainer">
+              <div class="roomOwnerSection">
+                <div class="vl"></div>
+
+                <div class="ownerImage">
+                  <img
+                    src="assets/images/Prince.jpeg"
+                    alt="owner image"
+                    class="ownerImage"
+                  />
+                </div>
+              </div>
+              <div class="ownerBackFlip"></div>
+            </div>
+          </div>
+          <div class="roomDescription">
+            <div class="roomDescTop">
+              <div class="locationName">Noida, India</div>
+
+              <div class="starRating">
+                <img
+                  src="assets/icons/star.png"
+                  alt="Star icon"
+                  class="starIcon"
+                />
+                <div class="rating">3.91</div>
+              </div>
+            </div>
+
+            <div class="roomDescBottom">
+              <p>212 kilometres away</p>
+              <p>21-26 Aug</p>
+            </div>
+
+            <div class="price">₹3,994 night</div>
+          </div>
+        </div>
+
+        <!-- 23rd -->
+        <div class="roomBox">
+          <div class="roomImg">
+            <img
+              src="assets/images/img6.avif"
+              alt="Room Image"
+              class="roomImg"
+            />
+            <a href="">
+              <div class="heartIcon">
+                <img src="assets/icons/heart.png" alt="" class="heartIcon" />
+              </div>
+            </a>
+            <div class="ownerContainer">
+              <div class="roomOwnerSection">
+                <div class="vl"></div>
+
+                <div class="ownerImage">
+                  <img
+                    src="assets/images/Prince.jpeg"
+                    alt="owner image"
+                    class="ownerImage"
+                  />
+                </div>
+              </div>
+              <div class="ownerBackFlip"></div>
+            </div>
+          </div>
+          <div class="roomDescription">
+            <div class="roomDescTop">
+              <div class="locationName">Noida, India</div>
+
+              <div class="starRating">
+                <img
+                  src="assets/icons/star.png"
+                  alt="Star icon"
+                  class="starIcon"
+                />
+                <div class="rating">3.91</div>
+              </div>
+            </div>
+
+            <div class="roomDescBottom">
+              <p>212 kilometres away</p>
+              <p>21-26 Aug</p>
+            </div>
+
+            <div class="price">₹3,994 night</div>
+          </div>
+        </div>
+
+        <!-- 24th -->
+        <div class="roomBox">
+          <div class="roomImg">
+            <img
+              src="assets/images/img7.avif"
+              alt="Room Image"
+              class="roomImg"
+            />
+            <a href="">
+              <div class="heartIcon">
+                <img src="assets/icons/heart.png" alt="" class="heartIcon" />
+              </div>
+            </a>
+            <div class="ownerContainer">
+              <div class="roomOwnerSection">
+                <div class="vl"></div>
+
+                <div class="ownerImage">
+                  <img
+                    src="assets/images/Prince.jpeg"
+                    alt="owner image"
+                    class="ownerImage"
+                  />
+                </div>
+              </div>
+              <div class="ownerBackFlip"></div>
+            </div>
+          </div>
+          <div class="roomDescription">
+            <div class="roomDescTop">
+              <div class="locationName">Noida, India</div>
+
+              <div class="starRating">
+                <img
+                  src="assets/icons/star.png"
+                  alt="Star icon"
+                  class="starIcon"
+                />
+                <div class="rating">3.91</div>
+              </div>
+            </div>
+
+            <div class="roomDescBottom">
+              <p>212 kilometres away</p>
+              <p>21-26 Aug</p>
+            </div>
+
+            <div class="price">₹3,994 night</div>
+          </div>
+        </div>
+
+        <!-- 25th -->
+        <div class="roomBox">
+          <div class="roomImg">
+            <img
+              src="assets/images/img8.avif"
+              alt="Room Image"
+              class="roomImg"
+            />
+            <a href="">
+              <div class="heartIcon">
+                <img src="assets/icons/heart.png" alt="" class="heartIcon" />
+              </div>
+            </a>
+            <div class="ownerContainer">
+              <div class="roomOwnerSection">
+                <div class="vl"></div>
+
+                <div class="ownerImage">
+                  <img
+                    src="assets/images/Prince.jpeg"
+                    alt="owner image"
+                    class="ownerImage"
+                  />
+                </div>
+              </div>
+              <div class="ownerBackFlip"></div>
+            </div>
+          </div>
+          <div class="roomDescription">
+            <div class="roomDescTop">
+              <div class="locationName">Noida, India</div>
+
+              <div class="starRating">
+                <img
+                  src="assets/icons/star.png"
+                  alt="Star icon"
+                  class="starIcon"
+                />
+                <div class="rating">3.91</div>
+              </div>
+            </div>
+
+            <div class="roomDescBottom">
+              <p>212 kilometres away</p>
+              <p>21-26 Aug</p>
+            </div>
+
+            <div class="price">₹3,994 night</div>
+          </div>
+        </div>
+
+        <!-- 26th -->
+        <div class="roomBox">
+          <div class="roomImg">
+            <img
+              src="assets/images/img9.avif"
+              alt="Room Image"
+              class="roomImg"
+            />
+            <a href="">
+              <div class="heartIcon">
+                <img src="assets/icons/heart.png" alt="" class="heartIcon" />
+              </div>
+            </a>
+            <div class="ownerContainer">
+              <div class="roomOwnerSection">
+                <div class="vl"></div>
+
+                <div class="ownerImage">
+                  <img
+                    src="assets/images/Prince.jpeg"
+                    alt="owner image"
+                    class="ownerImage"
+                  />
+                </div>
+              </div>
+              <div class="ownerBackFlip"></div>
+            </div>
+          </div>
+          <div class="roomDescription">
+            <div class="roomDescTop">
+              <div class="locationName">Noida, India</div>
+
+              <div class="starRating">
+                <img
+                  src="assets/icons/star.png"
+                  alt="Star icon"
+                  class="starIcon"
+                />
+                <div class="rating">3.91</div>
+              </div>
+            </div>
+
+            <div class="roomDescBottom">
+              <p>212 kilometres away</p>
+              <p>21-26 Aug</p>
+            </div>
+
+            <div class="price">₹3,994 night</div>
+          </div>
+        </div>
+
+        <!-- 27th -->
+        <div class="roomBox">
+          <div class="roomImg">
+            <img
+              src="assets/images/img10.avif"
+              alt="Room Image"
+              class="roomImg"
+            />
+            <a href="">
+              <div class="heartIcon">
+                <img src="assets/icons/heart.png" alt="" class="heartIcon" />
+              </div>
+            </a>
+            <div class="ownerContainer">
+              <div class="roomOwnerSection">
+                <div class="vl"></div>
+
+                <div class="ownerImage">
+                  <img
+                    src="assets/images/Prince.jpeg"
+                    alt="owner image"
+                    class="ownerImage"
+                  />
+                </div>
+              </div>
+              <div class="ownerBackFlip"></div>
+            </div>
+          </div>
+          <div class="roomDescription">
+            <div class="roomDescTop">
+              <div class="locationName">Noida, India</div>
+
+              <div class="starRating">
+                <img
+                  src="assets/icons/star.png"
+                  alt="Star icon"
+                  class="starIcon"
+                />
+                <div class="rating">3.91</div>
+              </div>
+            </div>
+
+            <div class="roomDescBottom">
+              <p>212 kilometres away</p>
+              <p>21-26 Aug</p>
+            </div>
+
+            <div class="price">₹3,994 night</div>
+          </div>
+        </div>
+
+        <!-- 28th -->
+        <div class="roomBox">
+          <div class="roomImg">
+            <img
+              src="assets/images/img11.avif"
+              alt="Room Image"
+              class="roomImg"
+            />
+            <a href="">
+              <div class="heartIcon">
+                <img src="assets/icons/heart.png" alt="" class="heartIcon" />
+              </div>
+            </a>
+            <div class="ownerContainer">
+              <div class="roomOwnerSection">
+                <div class="vl"></div>
+
+                <div class="ownerImage">
+                  <img
+                    src="assets/images/Prince.jpeg"
+                    alt="owner image"
+                    class="ownerImage"
+                  />
+                </div>
+              </div>
+              <div class="ownerBackFlip"></div>
+            </div>
+          </div>
+          <div class="roomDescription">
+            <div class="roomDescTop">
+              <div class="locationName">Noida, India</div>
+
+              <div class="starRating">
+                <img
+                  src="assets/icons/star.png"
+                  alt="Star icon"
+                  class="starIcon"
+                />
+                <div class="rating">3.91</div>
+              </div>
+            </div>
+
+            <div class="roomDescBottom">
+              <p>212 kilometres away</p>
+              <p>21-26 Aug</p>
+            </div>
+
+            <div class="price">₹3,994 night</div>
+          </div>
+        </div>
+
+        <!-- 29th -->
+        <div class="roomBox">
+          <div class="roomImg">
+            <img
+              src="assets/images/img12.avif"
+              alt="Room Image"
+              class="roomImg"
+            />
+            <a href="">
+              <div class="heartIcon">
+                <img src="assets/icons/heart.png" alt="" class="heartIcon" />
+              </div>
+            </a>
+            <div class="ownerContainer">
+              <div class="roomOwnerSection">
+                <div class="vl"></div>
+
+                <div class="ownerImage">
+                  <img
+                    src="assets/images/Prince.jpeg"
+                    alt="owner image"
+                    class="ownerImage"
+                  />
+                </div>
+              </div>
+              <div class="ownerBackFlip"></div>
+            </div>
+          </div>
+          <div class="roomDescription">
+            <div class="roomDescTop">
+              <div class="locationName">Noida, India</div>
+
+              <div class="starRating">
+                <img
+                  src="assets/icons/star.png"
+                  alt="Star icon"
+                  class="starIcon"
+                />
+                <div class="rating">3.91</div>
+              </div>
+            </div>
+
+            <div class="roomDescBottom">
+              <p>212 kilometres away</p>
+              <p>21-26 Aug</p>
+            </div>
+
+            <div class="price">₹3,994 night</div>
+          </div>
+        </div>
+
+        <!-- 30th -->
+        <div class="roomBox">
+          <div class="roomImg">
+            <img
+              src="assets/images/img19.avif"
+              alt="Room Image"
+              class="roomImg"
+            />
+            <a href="">
+              <div class="heartIcon">
+                <img src="assets/icons/heart.png" alt="" class="heartIcon" />
+              </div>
+            </a>
+            <div class="ownerContainer">
+              <div class="roomOwnerSection">
+                <div class="vl"></div>
+
+                <div class="ownerImage">
+                  <img
+                    src="assets/images/Prince.jpeg"
+                    alt="owner image"
+                    class="ownerImage"
+                  />
+                </div>
+              </div>
+              <div class="ownerBackFlip"></div>
+            </div>
+          </div>
+          <div class="roomDescription">
+            <div class="roomDescTop">
+              <div class="locationName">Noida, India</div>
+
+              <div class="starRating">
+                <img
+                  src="assets/icons/star.png"
+                  alt="Star icon"
+                  class="starIcon"
+                />
+                <div class="rating">3.91</div>
+              </div>
+            </div>
+
+            <div class="roomDescBottom">
+              <p>212 kilometres away</p>
+              <p>21-26 Aug</p>
+            </div>
+
+            <div class="price">₹3,994 night</div>
+          </div>
+        </div>
+      </div>
+      <button class="btn">
+        Show map <i class="fa-solid fa-map fa-fade" style="color: #ffffff"></i>
+      </button>
+
+      <footer>
+        <div class="footerLeft">
+          <p>© 2023 Airbnb, Inc</p>
+          <li><a href="">Privacy</a></li>
+          <li><a href="">Sitemap</a></li>
+          <li><a href="">Company details</a></li>
+        </div>
+        <div class="footerRight">
+          <div class="worldIcon">
+            <img
+              src="assets/icons/world.png"
+              alt="world icon"
+              class="worldIcon"
+            />
+          </div>
+          <li><a href="">English (IN)</a></li>
+          <li><a href="">Choose a currency ₹ INR</a></li>
+          <li>
+            <a href=""
+              ><i
+                class="fa-brands fa-square-facebook"
+                style="color: #000000"
+              ></i
+            ></a>
+          </li>
+          <li>
+            <a href=""
+              ><i class="fa-brands fa-square-twitter" style="color: #000000"></i
+            ></a>
+          </li>
+          <li>
+            <a href=""
+              ><i
+                class="fa-brands fa-square-instagram"
+                style="color: #000000"
+              ></i
+            ></a>
+          </li>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
